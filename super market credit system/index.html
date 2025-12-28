@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Supermarket Credit System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛒 Smart Supermarket Credit System</h1>
+
+<div class="form">
+    <input id="name" placeholder="Customer Name">
+    <input id="phone" placeholder="Phone Number">
+    <input id="amount" type="number" placeholder="Credit Amount">
+    <button onclick="addCustomer()">Add Credit</button>
+</div>
+
+<h2>Credit Records</h2>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Total</th>
+    <th>Balance</th>
+    <th>Due Date</th>
+    <th>Status</th>
+    <th>Payment</th>
+</tr>
+<tbody id="table"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
